@@ -1,0 +1,9 @@
+.mobile-search-bar {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  .mobile-search-bar {
+    display: none;
+  }
+}
