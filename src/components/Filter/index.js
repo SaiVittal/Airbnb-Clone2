@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles.css";
 import { LinkSharp } from "@mui/icons-material";
 import links from "../../assets/images-links";
 
-function Filter() {
-  const [selectedFilter, setselectedFilter] = useState("");
-
+function Filter({ selectedFilter, setselectedFilter }) {
   return (
     <div className="filter-div">
       {links.map((item, i) => (

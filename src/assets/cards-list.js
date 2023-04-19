@@ -61,7 +61,7 @@ export const list = [
     ],
     price: "20000",
     date: "15-20 May",
-    title: "Hotel 1",
+    title: "Hotel 23333",
   },
   {
     rating: "4",
